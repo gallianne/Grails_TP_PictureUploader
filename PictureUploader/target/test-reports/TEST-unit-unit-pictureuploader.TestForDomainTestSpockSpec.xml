@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="0" hostname="Poubelle" name="pictureuploader.TestForDomainTestSpockSpec" tests="1" time="0.003" timestamp="2013-10-31T11:04:34">
+  <properties />
+  <testcase classname="pictureuploader.TestForDomainTestSpockSpec" name="tester" time="0.003" />
+  <system-out><![CDATA[--Output from tester--
+]]></system-out>
+  <system-err><![CDATA[--Output from tester--
+]]></system-err>
+</testsuite>

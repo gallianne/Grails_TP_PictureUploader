@@ -88,3 +88,114 @@ org.h2.jdbc.JdbcSQLException: Database is already closed (to disable automatic c
 	at org.h2.jdbc.JdbcConnection.checkClosed(JdbcConnection.java:1388)
 	at org.h2.jdbc.JdbcConnection.getAutoCommit(JdbcConnection.java:428)
 	at java.lang.Thread.run(Thread.java:744)
+2013-10-31 12:04:33,246 [main] ERROR StackTrace  - Full Stack Trace:
+org.codehaus.groovy.grails.web.servlet.mvc.exceptions.CannotRedirectException: Cannot redirect for object [pictureuploader.DomainForTestSpock : (unsaved)] it is not a domain or has no identifier. Use an explicit redirect instead 
+	at org.codehaus.groovy.grails.plugins.web.api.ControllersApi.redirect(ControllersApi.java:273)
+	at groovy.lang.GroovyObjectSupport.invokeMethod(GroovyObjectSupport.java:44)
+	at groovy.lang.GroovyObjectSupport.invokeMethod(GroovyObjectSupport.java:44)
+	at pictureuploader.DomainForTestSpockController.save_closure4_closure9_closure10(DomainForTestSpockController.groovy:43)
+	at pictureuploader.DomainForTestSpockController.save_closure4_closure9_closure10(DomainForTestSpockController.groovy)
+	at groovy.lang.Closure.call(Closure.java:411)
+	at groovy.lang.Closure.call(Closure.java:405)
+	at org.codehaus.groovy.grails.plugins.web.api.MimeTypesApiSupport.getResponseForFormat(MimeTypesApiSupport.groovy:123)
+	at org.codehaus.groovy.grails.plugins.web.api.MimeTypesApiSupport.withFormatInternal(MimeTypesApiSupport.groovy:53)
+	at org.codehaus.groovy.grails.plugins.web.api.MimeTypesApiSupport.withFormat(MimeTypesApiSupport.groovy:40)
+	at org.codehaus.groovy.grails.plugins.web.api.RequestMimeTypesApi.withFormat(RequestMimeTypesApi.groovy:95)
+	at pictureuploader.DomainForTestSpockController.save_closure4(DomainForTestSpockController.groovy:40)
+	at groovy.lang.Closure.call(Closure.java:411)
+	at groovy.lang.Closure.call(Closure.java:427)
+	at org.codehaus.groovy.grails.orm.support.GrailsTransactionTemplate$1.doInTransaction(GrailsTransactionTemplate.groovy:60)
+	at org.springframework.transaction.support.TransactionTemplate.execute(TransactionTemplate.java:131)
+	at org.codehaus.groovy.grails.orm.support.GrailsTransactionTemplate.execute(GrailsTransactionTemplate.groovy:57)
+	at pictureuploader.DomainForTestSpockControllerSpec.Test the save action correctly persists an instance(DomainForTestSpockControllerSpec.groovy:52)
+2013-10-31 12:04:33,266 [main] ERROR StackTrace  - Full Stack Trace:
+org.codehaus.groovy.grails.web.servlet.mvc.exceptions.CannotRedirectException: Cannot redirect for object [pictureuploader.DomainForTestSpock : (unsaved)] it is not a domain or has no identifier. Use an explicit redirect instead 
+	at pictureuploader.DomainForTestSpockController.save_closure4_closure9_closure10(DomainForTestSpockController.groovy:43)
+	at pictureuploader.DomainForTestSpockController.save_closure4(DomainForTestSpockController.groovy:40)
+	at pictureuploader.DomainForTestSpockControllerSpec.Test the save action correctly persists an instance(DomainForTestSpockControllerSpec.groovy:52)
+2013-10-31 12:04:33,267 [main] ERROR StackTrace  - Full Stack Trace:
+org.codehaus.groovy.grails.web.servlet.mvc.exceptions.CannotRedirectException: Cannot redirect for object [pictureuploader.DomainForTestSpock : (unsaved)] it is not a domain or has no identifier. Use an explicit redirect instead 
+	at pictureuploader.DomainForTestSpockController.save_closure4_closure9_closure10(DomainForTestSpockController.groovy:43)
+	at pictureuploader.DomainForTestSpockController.save_closure4(DomainForTestSpockController.groovy:40)
+	at pictureuploader.DomainForTestSpockControllerSpec.Test the save action correctly persists an instance(DomainForTestSpockControllerSpec.groovy:52)
+2013-10-31 12:04:33,267 [main] ERROR StackTrace  - Full Stack Trace:
+org.codehaus.groovy.grails.web.servlet.mvc.exceptions.CannotRedirectException: Cannot redirect for object [pictureuploader.DomainForTestSpock : (unsaved)] it is not a domain or has no identifier. Use an explicit redirect instead 
+	at pictureuploader.DomainForTestSpockController.save_closure4_closure9_closure10(DomainForTestSpockController.groovy:43)
+	at pictureuploader.DomainForTestSpockController.save_closure4(DomainForTestSpockController.groovy:40)
+	at pictureuploader.DomainForTestSpockControllerSpec.Test the save action correctly persists an instance(DomainForTestSpockControllerSpec.groovy:52)
+2013-10-31 12:04:33,514 [main] ERROR StackTrace  - Full Stack Trace:
+org.codehaus.groovy.grails.web.servlet.mvc.exceptions.CannotRedirectException: Cannot redirect for object [pictureuploader.DomainForTestSpock : (unsaved)] it is not a domain or has no identifier. Use an explicit redirect instead 
+	at pictureuploader.DomainForTestSpockController.save_closure4_closure9_closure10(DomainForTestSpockController.groovy:43)
+	at pictureuploader.DomainForTestSpockController.save_closure4(DomainForTestSpockController.groovy:40)
+	at pictureuploader.DomainForTestSpockControllerSpec.Test the save action correctly persists an instance(DomainForTestSpockControllerSpec.groovy:52)
+2013-10-31 12:04:33,515 [main] ERROR StackTrace  - Full Stack Trace:
+org.codehaus.groovy.grails.web.servlet.mvc.exceptions.CannotRedirectException: Cannot redirect for object [pictureuploader.DomainForTestSpock : (unsaved)] it is not a domain or has no identifier. Use an explicit redirect instead 
+	at pictureuploader.DomainForTestSpockController.save_closure4_closure9_closure10(DomainForTestSpockController.groovy:43)
+	at pictureuploader.DomainForTestSpockController.save_closure4(DomainForTestSpockController.groovy:40)
+	at pictureuploader.DomainForTestSpockControllerSpec.Test the save action correctly persists an instance(DomainForTestSpockControllerSpec.groovy:52)
+2013-10-31 12:04:33,856 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.NullPointerException: Cannot get property 'id' on null object
+	at pictureuploader.DomainForTestSpockControllerSpec.Test the update action performs an update on a valid domain instance(DomainForTestSpockControllerSpec.groovy:118)
+2013-10-31 12:04:33,856 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.NullPointerException: Cannot get property 'id' on null object
+	at pictureuploader.DomainForTestSpockControllerSpec.Test the update action performs an update on a valid domain instance(DomainForTestSpockControllerSpec.groovy:118)
+2013-10-31 12:04:33,857 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.NullPointerException: Cannot get property 'id' on null object
+	at pictureuploader.DomainForTestSpockControllerSpec.Test the update action performs an update on a valid domain instance(DomainForTestSpockControllerSpec.groovy:118)
+2013-10-31 12:04:33,857 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.NullPointerException: Cannot get property 'id' on null object
+	at pictureuploader.DomainForTestSpockControllerSpec.Test the update action performs an update on a valid domain instance(DomainForTestSpockControllerSpec.groovy:118)
+2013-10-31 12:04:33,857 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.NullPointerException: Cannot get property 'id' on null object
+	at pictureuploader.DomainForTestSpockControllerSpec.Test the update action performs an update on a valid domain instance(DomainForTestSpockControllerSpec.groovy:118)
+2013-10-31 12:04:33,857 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.NullPointerException: Cannot get property 'id' on null object
+	at pictureuploader.DomainForTestSpockControllerSpec.Test the update action performs an update on a valid domain instance(DomainForTestSpockControllerSpec.groovy:118)
+2013-10-31 12:04:33,943 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+DomainForTestSpock.count() == 1
+                   |       |
+                   0       false
+
+	at pictureuploader.DomainForTestSpockControllerSpec.Test that the delete action deletes an instance if it exists(DomainForTestSpockControllerSpec.groovy:136)
+2013-10-31 12:04:33,944 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+DomainForTestSpock.count() == 1
+                   |       |
+                   0       false
+
+	at pictureuploader.DomainForTestSpockControllerSpec.Test that the delete action deletes an instance if it exists(DomainForTestSpockControllerSpec.groovy:136)
+2013-10-31 12:04:33,945 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+DomainForTestSpock.count() == 1
+                   |       |
+                   0       false
+
+	at pictureuploader.DomainForTestSpockControllerSpec.Test that the delete action deletes an instance if it exists(DomainForTestSpockControllerSpec.groovy:136)
+2013-10-31 12:04:33,945 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+DomainForTestSpock.count() == 1
+                   |       |
+                   0       false
+
+	at pictureuploader.DomainForTestSpockControllerSpec.Test that the delete action deletes an instance if it exists(DomainForTestSpockControllerSpec.groovy:136)
+2013-10-31 12:04:33,945 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+DomainForTestSpock.count() == 1
+                   |       |
+                   0       false
+
+	at pictureuploader.DomainForTestSpockControllerSpec.Test that the delete action deletes an instance if it exists(DomainForTestSpockControllerSpec.groovy:136)
+2013-10-31 12:04:33,945 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+DomainForTestSpock.count() == 1
+                   |       |
+                   0       false
+
+	at pictureuploader.DomainForTestSpockControllerSpec.Test that the delete action deletes an instance if it exists(DomainForTestSpockControllerSpec.groovy:136)

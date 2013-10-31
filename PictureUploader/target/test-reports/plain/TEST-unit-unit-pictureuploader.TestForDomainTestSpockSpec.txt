@@ -1,0 +1,10 @@
+Testsuite: pictureuploader.TestForDomainTestSpockSpec
+Tests run: 1, Failures: 0, Errors: 0, Time elapsed: 0,003 sec
+------------- Standard Output ---------------
+--Output from tester--
+------------- ---------------- ---------------
+------------- Standard Error -----------------
+--Output from tester--
+------------- ---------------- ---------------
+
+Testcase: tester took 0,003 sec
