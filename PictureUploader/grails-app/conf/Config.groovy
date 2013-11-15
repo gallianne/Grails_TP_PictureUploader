@@ -85,12 +85,25 @@ grails.hibernate.cache.queries = false
 
 environments {
     development {
-        grails.logging.jul.usebridge = true
+        grails.logging.jul.usebridge = false
     }
     production {
-        grails.logging.jul.usebridge = false
+        grails.logging.jul.usebridge = true
         // TODO: grails.serverURL = "http://www.changeme.com"
     }
+}
+
+fileuploader {
+	avatar {
+		maxSize = 1024 * 256 //256 kbytes
+		allowedExtensions = ["jpg","jpeg","gif","png"]
+		path = "/tmp/avatar/"
+	}
+	docs {
+		maxSize = 1000 * 1024 * 4 //4 mbytes
+		allowedExtensions = ["doc", "docx", "pdf", "rtf"]
+		path = "/tmp/docs/"
+	}
 }
 
 // log4j configuration
@@ -113,3 +126,10 @@ log4j = {
            'org.hibernate',
            'net.sf.ehcache.hibernate'
 }
+
+
+
+// Added by the Spring Security Core plugin:
+grails.plugins.springsecurity.userLookup.userDomainClassName = 'pictureuploader.User'
+grails.plugins.springsecurity.userLookup.authorityJoinClassName = 'pictureuploader.UserRole'
+grails.plugins.springsecurity.authority.className = 'pictureuploader.Role'

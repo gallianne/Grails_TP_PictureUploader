@@ -41,7 +41,7 @@
 						<td>${fieldValue(bean: domainForTestSpockInstance, field: "nom")}</td>
 					
 						<td>${fieldValue(bean: domainForTestSpockInstance, field: "prenom")}</td>
-					
+						<td><img src="${fieldValue(bean: domainForTestSpockInstance, field: "image")}"/></td>
 					</tr>
 				</g:each>
 				</tbody>

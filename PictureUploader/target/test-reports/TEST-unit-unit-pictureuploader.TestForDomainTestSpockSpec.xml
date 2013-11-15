@@ -1,7 +1,21 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite errors="0" failures="0" hostname="Poubelle" name="pictureuploader.TestForDomainTestSpockSpec" tests="1" time="0.003" timestamp="2013-10-31T11:04:34">
+<testsuite errors="0" failures="1" hostname="StarFight-PC" name="pictureuploader.TestForDomainTestSpockSpec" tests="1" time="0.2" timestamp="2013-11-15T11:24:03">
   <properties />
-  <testcase classname="pictureuploader.TestForDomainTestSpockSpec" name="tester" time="0.003" />
+  <testcase classname="pictureuploader.TestForDomainTestSpockSpec" name="tester" time="0.009">
+    <failure message="Condition not satisfied:&#xa;&#xa;vilain.ToString() == &quot;le groovy �a marche pas 666&quot;&#xa;|      |          |&#xa;|      |          false&#xa;|      |          5 differences (84% similarity)&#xa;|      |          le groovy �a marche pas 666( null)&#xa;|      |          le groovy �a marche pas 666(-----)&#xa;|      le groovy �a marche pas 666 null&#xa;pictureuploader.DomainForTestSpock : (unsaved)&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Condition not satisfied:
+
+vilain.ToString() == &quot;le groovy �a marche pas 666&quot;
+|      |          |
+|      |          false
+|      |          5 differences (84% similarity)
+|      |          le groovy �a marche pas 666( null)
+|      |          le groovy �a marche pas 666(-----)
+|      le groovy �a marche pas 666 null
+pictureuploader.DomainForTestSpock : (unsaved)
+
+	at pictureuploader.TestForDomainTestSpockSpec.tester(TestForDomainTestSpockSpec.groovy:28)
+</failure>
+  </testcase>
   <system-out><![CDATA[--Output from tester--
 ]]></system-out>
   <system-err><![CDATA[--Output from tester--

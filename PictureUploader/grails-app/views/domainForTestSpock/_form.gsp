@@ -10,6 +10,14 @@
 	<g:field name="age" type="number" value="${domainForTestSpockInstance.age}" required=""/>
 </div>
 
+<div class="fieldcontain ${hasErrors(bean: domainForTestSpockInstance, field: 'image', 'error')} ">
+	<label for="image">
+		<g:message code="domainForTestSpock.image.label" default="Image" />
+		
+	</label>
+	<g:textField name="image" value="${domainForTestSpockInstance?.image}"/>
+</div>
+
 <div class="fieldcontain ${hasErrors(bean: domainForTestSpockInstance, field: 'nom', 'error')} ">
 	<label for="nom">
 		<g:message code="domainForTestSpock.nom.label" default="Nom" />
